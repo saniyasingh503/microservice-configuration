@@ -9,4 +9,4 @@ eureka:
 
 
 user:
-  message: Hello from config server
+  message: Hello!! calling from config server
