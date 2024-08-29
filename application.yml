@@ -8,5 +8,9 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 
-user:
-  message: Hello!! calling from config server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
